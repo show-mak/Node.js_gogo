@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.fr {
+    float: right;
+}
+
+.header {
+    background-color: #333333;
+}
+
+.header .w {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.header .w>div a {
+    color: #b0b0b0;
+    border-left: 1px solid #423c37;
+    padding: 5px 5px;
+}
+
+.header .w>div a:hover {
+    color: #ff6700;
+}
+.w_enter .icon-cart{
+    height: 40px;
+    background-color: #424242;
+    padding: 0px 10px;
+    line-height: 40px;
+}
+
+.search .w {
+    height: 100px;
+    position: relative;
+    line-height: 100px;
+}
+
+.w_logo {
+    width: 56px;
+    height: 56px;
+    background-color: #ff6700;
+    margin-top: 22px;
+    position: relative;
+}
+
+.w_logo img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -24px;
+    margin-top: -24px;
+
+}
+
+.w_nav {
+    width: 55%;
+    height: 100%;
+    margin-left: 155px;
+}
+
+.w_nav a {
+    color: #333;
+    padding: 10px;
+}
+
+.w_nav a:hover {
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+}
+
+.w_input {
+    width: 245px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    line-height: 50px;
+    text-align: right;
+}
+
+
+.w_input span {
+    color: #757575;
+    font-size: 12px;
+    background-color: #eeeeee;
+    margin-right: 10px;
+}
+
+
+   
+
+.w_btn {
+    /* width: 50px;
+    height: 52px; */
+    padding: 18px 17px;
+    background-color: #ccc;
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+
+.banner .w {
+    height: 460px;
+}
+
+.banner .w .side_nav {
+    background-color: #9b9da1;
+    width: 235px;
+    height: 100%;
+    line-height: 40px;
+}
+
+.w .side_nav li {
+    padding: 0px 30px;
+    font-size: 16px;
+}
+
+.w .side_nav li:hover {
+    background-color: #ff6700;
+}
+
+.side_nav li:first-child {
+    margin-top: 34px;
+}
+
+.side_nav li:last-child {
+    margin-bottom: 34px;
+}
+
+.w .side_nav li a {
+    color: #f7f7f8;
+}
+
+.w .side_nav li span {
+    float: right;
+}
+
+.w_banner {
+    width: 960px;
+    height: 100%;
+    background-image: url(./images/banner.webp);
+    background-position: -390px;
+    position: relative;
+}
+
+.w_banner_leftbtn {
+    width: 40px;
+    height: 72px;
+    background-image: url(./images/spirite.png);
+    background-position: -300px -575px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -37.5px;
+}
+
+.w_banner_righttbtn {
+    width: 40px;
+    height: 72px;
+    background-image: url(./images/spirite.png);
+    background-position: -340px -575px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -37.5px;
+}
+
+.w_banner_bottombtn {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    width: 80px;
+    height: 10px;
+}
+
+.w_banner_bottombtn .dot {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #b1b4b6;
+    margin-right: 10px;
+    position: relative;
+}
+
+.w_banner_bottombtn .dot .dot1 {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -3px;
+    margin-top: -3px;
+    background-color: #fff;
+}
+
+.more .w {
+    margin-top: 15px;
+    height: 170px;
+}
+
+.smallnav {
+    height: 100%;
+    width: 235px;
+    background-color: #5f5750;
+   
+
+}
+
+.ph {
+    float: left;
+    width: 77px;
+    height: 49.5%;
+    border: 1px solid #b1b4b6;
+    margin-top: -1px;
+    margin-left: -1px;
+    position: relative;
+
+}
+
+
+.ph .img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -20px;
+    margin-left: -12px;
+}
+
+.ph .img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.ph p {
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 5px;
+    margin-left: -24px;
+}
+
+.banner1 {
+    float: left;
+    height: 170px;
+    width: 316.5px;
+    margin-left: 5px;
+}
+
+.banner1 img {
+    height: 100%;
+    width: 100%;
+
+}
+
+/* 小米秒杀栏开始 */
+.shop {
+    margin-top: 20px;
+    background-color: #f5f5f5;
+}
+
+/* 秒杀栏 首行 左侧文字*/
+.xiaomi h1 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 400;
+    padding: 15px 0px;
+}
+
+/* 秒杀栏 首行 右侧内容 */
+.xiaomi .img1 {
+    width: 75px;
+    height: 23px;
+    color: #b0b0b0;
+    border: 1px solid #b4adad;
+    text-align: center;
+    line-height: 23px;
+    margin-top: 40px;
+}
+
+.xiaomi .img1 .left {
+    height: 100%;
+    width: 50%;
+    border-right: 1px solid #b4adad;
+}
+
+.xiaomi .img1 .right {
+    height: 100%;
+    width: 45%;
+}
+
+/* 第二行  商品种类*/
+/* 秒杀倒计时 */
+
+.shangpin {
+    height: 350px;
+}
+
+.secklill,
+.half {
+    float: left;
+    width: 232px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #e53934;
+    position: relative;
+}
+.half:last-child{
+    margin-right: 0px;
+}
+
+.secklill {
+    text-align: center;
+    background-color: rgba(212, 115, 115, 0.8)
+}
+
+.secklill h2 {
+    padding-top: 60px;
+    color: #e53934;
+}
+
+.secklill .icon-power {
+    color: #e53934;
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.secklill h3 {
+    padding-top: 20px;
+}
+
+.secklill h4 {
+    padding: 20px;
+}
+.secklill h4 span{
+    display:inline-block;
+    width: 46px;
+    height: 46px;
+    background-color: #605751;
+    color: #eeeeee;
+    line-height: 46px;
+}
+
+/* 秒杀商品详情 */
+
+.half .five{
+    width: 60px;
+    height: 20px;
+    background-color: #e13834;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    color: #eeeeee;
+
+}
+.half img {
+    width: 173px;
+    height: 129px;
+    text-align: center;
+    padding: 24px 0px;
+}
+
+.half h1 {
+    padding-top: 20px;
+    font-size: 14px;
+
+}
+
+.half h2 {
+    padding-top: 10px;
+    color: #bbbbbb;
+    font-size: 11px;
+}
+
+.half h3 {
+    padding: 25px;
+}
+
+.half h3 span {
+    font-size: 13px;
+    color: #ff6700;
+}
+
+.half h3 del {
+    font-size: 12px;
+    color: #bebebe;
+}
+
+/* 广告横栏 */
+.banner_2 {
+    background-color: #f5f5f5;
+}
+
+.banner_2 .w {
+    height: 120px;
+}
+
+.banner_2 .w img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    background-color: #f5f5f5;
+}
+
+/* 手机商品栏第一行 */
+
+.phone {
+    height: 40px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+    padding-top: 35px;
+}
+
+.phone h1 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+}
+
+.phone .check {
+    position: relative;
+}
+
+.phone h2 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+
+.phone .icon-chevron-right {
+    font-size: 13px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    color: #fff;
+    background-color: #b0b0b0;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 5px;
+    line-height: 16px;
+}
+
+/* 竖向广告栏+手机商品详情 */
+.price {
+    height: 615px;
+    background-color: #f5f5f5;
+    padding-top: 20px;
+}
+
+/* 竖向广告栏 */
+.banner_3 {
+    width: 240px;
+    height: 100%;
+}
+
+.banner_3 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 手机商品详情 */
+.iphone {
+    width: 960px;
+    height: 615px;
+}
+
+.sale {
+    float: left;
+    width: 230px;
+    height: 300px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.sale img {
+    width: 150px;
+    height: 150px;
+}
+
+.sale h1 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 400;
+    padding-top: 35px;
+}
+
+.sale h2 {
+    font-size: 14px;
+    color: #b0b0b0;
+    font-weight: 400;
+    padding-top: 7px;
+}
+
+.sale h3 {
+    font-size: 20px;
+    color: #ff6700;
+    font-weight: 400;
+    padding-top: 10px
+}
+.vedio{
+    height: 288px;
+    background-color: #f5f5f5;
+}
+.vedio .open{
+    float: left;
+    width: 288px;
+    height: 278px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.vedio .open:last-child{
+    margin-right: 0px
+}
+.vedio .open .img1{
+    width: 288px;
+    height: 180px;
+    
+}
+.vedio .open .img1 img{
+    width: 100%;
+    height: 100%;
+}
+.vedio .open .news{
+    text-align: center;
+    padding-top: 30px;     
+}

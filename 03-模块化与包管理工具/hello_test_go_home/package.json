@@ -1,0 +1,12 @@
+{
+  "name": "hello_test_go_home",
+  "version": "1.0.2",
+  "description": "哈哈哈哈哈哈哈哈哈",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
